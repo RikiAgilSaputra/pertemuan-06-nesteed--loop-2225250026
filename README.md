@@ -28,3 +28,5 @@ loop luar memiliki peran untuk menajalankan kode program perulangan utama. Prose
 badan loop dalam akan berjalan sebanyak range yang dimasukkan pada fungsi. jika kita memasukkan range dalam fungsi for misalkan for i in range (1, 5), maka badan loop akan berjalan sebanyak 4 kali dengan tidak memasukkan batas atas range yaitu 5.
 ## Refleksi
 kesalahan yang saya temukan adalah bahwa saya meletakkan deklarasi variabel misalkan total_baris = 0 setelah loop dalam, sehingga hasilnya akan selalu kereset. Saya menanganinya dengan mengubah letak total_baris = 0 menjadi di awal.
+## REFERENSI
+Di dalam menyelesaikan tugas ini, saya menggunakan bantuan Ai Gemini untuk mengecek kode yang error dan membantu dalam membuat tabel di readme.
