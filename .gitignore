@@ -1,0 +1,70 @@
+# ==========================================
+# 1. SISTEM OPERASI & EDITOR (Selalu Abaikan)
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# ==========================================
+# 2. FILE SENSITIF & MODUL (KEAMANAN)
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+node_modules/
+bower_components/
+
+# ==========================================
+# 3. NODE.JS / JAVASCRIPT / TYPESCRIPT
+# ==========================================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+build/
+.next/
+.nuxt/
+.out/
+.cache/
+
+# ==========================================
+# 4. PYTHON
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.htmlcov/
+htmlcov/
+
+# ==========================================
+# 5. PHP / LARAVEL
+# ==========================================
+/vendor/
+/public/storage
+/public/hot
+/storage/*.key
+.phpunit.result.cache
+
+# ==========================================
+# 6. JAVA / RUST / GO
+# ==========================================
+*.class
+*.jar
+*.war
+/target/
+/bin/
+/out/
